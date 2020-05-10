@@ -29,7 +29,7 @@ public class AutoComplete {
     }
 
     private void constructDict() throws Exception {
-        Scanner scanner = new Scanner(new File("/Users/aaima/Downloads/words.txt"));
+        Scanner scanner = new Scanner(new File("/Users/adhiraima/Downloads/words.txt"));
         while(scanner.hasNextLine()) {
             String word = scanner.nextLine().trim();
             char[] chars = word.toCharArray();
